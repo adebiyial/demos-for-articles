@@ -1,0 +1,11 @@
+.banner {
+  padding: 10px;
+  text-align: center;
+  background: tomato;
+  color: white;
+}
+
+.banner-title {
+  font-size: 15px;
+  text-transform: uppercase;
+}

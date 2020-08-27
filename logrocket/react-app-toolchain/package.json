@@ -1,0 +1,31 @@
+{
+  "name": "react-app-toolchain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/adebiyial/react-app-toolchain.git",
+  "author": "adebiyi adedotun",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel public/index.html",
+    "format": "prettier \"src/**/*.js\" --write",
+    "lint": "eslint \"src/**/*.{js,jsx}\""
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.4.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.3",
+    "eslint-plugin-react-hooks": "^4.0.5",
+    "parcel": "^1.12.4",
+    "prettier": "^2.0.5",
+    "prop-types": "^15.7.2",
+    "sass": "^1.26.9",
+    "styled-components": "^5.1.1"
+  }
+}

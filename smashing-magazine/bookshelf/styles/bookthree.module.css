@@ -1,0 +1,9 @@
+/* styles/bookthree.module.css */
+.book3 {
+  color: #df66c3;
+  width: 106px;
+  height: 448px;
+  margin-right: 23px;
+  background-color: #153086;
+  transform: rotate(-4deg);
+}
