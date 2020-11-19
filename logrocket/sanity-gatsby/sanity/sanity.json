@@ -1,0 +1,30 @@
+{
+  "root": true,
+  "project": {
+    "name": "bookstore-content"
+  },
+  "api": {
+    "projectId": "1l9w4fzl",
+    "dataset": "production"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/components",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool"
+  ],
+  "env": {
+    "development": {
+      "plugins": [
+        "@sanity/vision"
+      ]
+    }
+  },
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema"
+    }
+  ]
+}
