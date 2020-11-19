@@ -1,3 +1,2 @@
-1. Clone the repo
-2. cd react-app-toolchain
-3. When you switch branches, don't forget to `yarn install`
+Read article:
+[Creating a React app toolchain from scratch](https://blog.logrocket.com/creating-a-react-app-toolchain-from-scratch/)
